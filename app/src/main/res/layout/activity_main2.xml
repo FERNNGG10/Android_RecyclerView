@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:textSize="30sp"
+    android:id="@+id/txtDeporteEnActivity2"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txtDeporteEnActivity2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/descripcion"
+        android:text="Lorem ipsum dolor sit amet consectetur adipiscing elit dignissim faucibus congue facilisis auctor, vestibulum malesuada curae id risus imperdiet gravida et tellus felis facilisi. Suspendisse nisl cum orci eleifend facilisi semper primis tellus accumsan eu, taciti magnis ridiculus risus blandit nisi habitant porttitor. Libero congue porttitor sed vestibulum lobortis bibendum justo, sem volutpat urna mauris curabitur mi nostra, pulvinar enim euismod cubilia nibh duis."
+        ></TextView>
+</androidx.constraintlayout.widget.ConstraintLayout>

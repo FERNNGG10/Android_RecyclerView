@@ -50,6 +50,7 @@ public class DeporteAdapter extends RecyclerView.Adapter<DeporteAdapter.viewHold
             txtOrigen=itemView.findViewById(R.id.txOrigen);
             onClick(itemView);
             itemView.setOnClickListener(this);
+
         }
 
         public void setData(Deporte d)
@@ -65,6 +66,8 @@ public class DeporteAdapter extends RecyclerView.Adapter<DeporteAdapter.viewHold
             Intent intent = new Intent(v.getContext(), MainActivity2.class);
             intent.putExtra("deporte_nombre", txtDeporte.getText().toString());
             v.getContext().startActivity(intent);
+
+
 
         }
     }
